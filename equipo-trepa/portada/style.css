@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins' cursive;
+}
+
+body{
+    color: azure;
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.botones{
+    padding: 9px;
+    border-radius: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+.botones a{
+    background-color: #0a2be9;
+    padding: 9px;
+    border-radius: 80px;
+    -webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    -o-border-radius:80px;
+    
+}
+
+.boton a:hover{
+    background-color: aqua;
+}
+
+.botones a:focus{
+    background-color: rgb(50, 194, 194);
+
+}
+
+.saludo{
+    font-size: 3rem;
+    font-weight: 1000;
+
+}
+
+.saludo > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100%{
+        color: #111;
+        text-shadow:none ;
+    }
+
+}
+.saludo > span:nth-child(1){
+    animation-delay: 0.2s;
+}
+.saludo > span:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.saludo > span:nth-child(3){
+    animation-delay: 0.6s;
+}
+.saludo > span:nth-child(4){
+    animation-delay: 0.8s;
+
+}
+
+.saludo > span:nth-child(5){
+    animation-delay: 1s;
+}
+.saludo > span:nth-child(6){
+    animation-delay: 1.2s;
+}
+.saludo > span:nth-child(7){
+    animation-delay: 1.4s;
+}
+.saludo > span:nth-child(8){
+    animation-delay: 1.6s;
+}
+.saludo > span:nth-child(9){
+    animation-delay: 1.8s;
+}
+.saludo > span:nth-child(10){
+    animation-delay: 2s;
+}
+.saludo > span:nth-child(11){
+    animation-delay: 2.2s;
+}
+.saludo > span:nth-child(12){
+    animation-delay: 2.4s;
+}
+
+.saludo > span:nth-child(13){
+    animation-delay: 2.6s;
+}
+.saludo > span:nth-child(14){
+    animation-delay: 2.8s;
+}
+.saludo > span:nth-child(15){
+    animation-delay: 3s;
+}
+.saludo > span:nth-child(16){
+    animation-delay:3.2s;
+}
+.saludo > span:nth-child(17){
+    animation-delay: 3.4s;
+}
+.saludo > span:nth-child(18){
+    animation-delay: 3.6s;
+}
+.saludo > span:nth-child(19){
+    animation-delay: 3.8s;
+}
+
+
+
+ .descripcion{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.boton a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #111;
+}
